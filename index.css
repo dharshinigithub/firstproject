@@ -1,0 +1,119 @@
+body
+{
+  background-color: lightblue;
+}
+#first
+  {
+    <command>background-color: green;
+    /*border: 1px;solidblack;*/
+    width:500px;
+    height:auto;
+    position:absolute;}    
+#first #input1
+   {
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    outline:none;
+    background:transparent;
+    border-bottom:2px solid black ;
+    width:300px;
+    margin:10px;
+
+   }
+#second
+       {
+        <command>background-color: green;
+        height: auto;
+        width :500px;
+        margin-left: 500px;
+        }   
+#second #input2
+       {
+         border-left: none;
+         border-right: none;
+         border-top:none;
+         outline: none;
+         background: transparent;
+         border-bottom:2px solid black;
+         width:300px;
+         margin:10px;
+        }
+#third
+{
+    <command>background-color:brown;
+    width:500px;
+    height:auto;
+    position:absolute;}    
+#third #input3
+{
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  outline:none;
+  background:transparent;
+  border-bottom:1px solid black ;
+  width:300px;
+  margin:10px;
+
+ }
+#fourth
+{
+    <command>background-color: yellowgreen;
+    height: auto;
+    width :500px;
+    margin-left: 500px;  
+}
+#fourth #input4
+{
+border-left: none;
+border-right: none;
+border-top:none;
+outline: none;
+background: transparent;
+border-bottom:2px solid black;
+width:300px;
+margin:10px;
+}
+#fifth
+{
+<command>background-color: chartreuse;
+    width:1000px;
+    height:auto;
+    position:absolute;} 
+#fifth #input5
+{
+border-left: none;
+border-right: none;
+border-top:none;
+outline: none;
+background: transparent;
+border-bottom:2px solid black;
+width:200px;
+margin:10px;
+}
+#sixth
+{
+  <command>background-color: violet;
+  width:950px;
+  height:auto;
+  position:absolute;}
+#sixth #input6
+{
+border-left:none;
+border-right:none;
+border-top:none;
+outline:none;
+background:transparent;
+border-bottom:2px solid black ;
+width:300px;
+margin:7px;
+}
+#submit
+{
+  background-color: lightseagreen;
+  size: 20px;
+  width: 20px;
+  text-color:black
+  
+}

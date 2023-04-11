@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1{text-align: center;} 
+        h2{text-align: center;}                       
+    </style>
+    <link rel="stylesheet" href="index.css">
+    <body>
+        <p style="text-size: 20px;">
+        <h1 style="text-align="center">Railway <br>
+           Reservation/Cancellation form</h1>
+        If you are a medical Practitionar Please tick<input type="checkbox"> in box
+        <b>DR.</b>
+        <input type="text" id="name" name="name">(you could be of help in an emergency)
+           <br><br>
+        <div id="information" text: "center;">
+            <div id="first">
+                <b>Train No & Name</b><input type="text" id="input1"><br>
+                <b>Class</b><input type="Text" id="input1"><br>
+                <b>Station from</b><input type="text" id="input1"><br>
+                <b>Boarding at</b><input type="text" id="input1"><br>
+            </div>
+            <div id="second">
+                <b>Date of journey</b><input type="date" id="input2"><br>
+                <b>No of Berth Seat</b><input type="Text" id="input2"><br>
+                <b>To</b><input type="text" id="input2"><br>
+                <b>Reservation Upto</b><input type="text" id="input2"><br>
+            </div>
+            </div>
+        <div id="personal">
+            <table class="table:" border="1">
+               <col group>
+               <col span="6">
+               <tr>
+                <th>S.No</th>
+                <th>Name in block letter(not more thean 15 chars)</th>
+                <th>Sex(F/M)</th>
+                <th>Age</th>
+                <th>Concession/Travel Authority No</th>
+                <th>Choice if Any</th>
+               </tr>
+               <tr>
+                <td>1</td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td>Lower birth<input type="checkbox">
+                Upper birth<input type="checkbox"></td>
+               </tr>
+               <tr>
+                <td>2</td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td></td>
+               </tr>
+               <tr>
+                <td>3</td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td></td>
+               </tr>
+               <tr>
+                <td>4</td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name"></td>
+                <td>Veg<input type="checkbox">
+                Non veg<input type="checkbox">
+                (Meal for Rajdhani/Shatabdi Express Only)</td>
+               </tr>
+            </col group>
+            </table>
+            <p>CHILDREN BELOW 5 YEARS (FOR WHOM TICKET IS NOT TO BE ISSUED)</p>
+            <table class="table" border="2">
+                <col group>
+                <col span="4">
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name in block letter</th>
+                        <th>Sex</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                </table>
+        </div>
+        <p style="text-size: 20px;">
+        <h1 style="text-align:center"><u>Onward Return Journey Details</u><br></h1></p>
+         <div id="return" text="center">
+             <div id="third">
+                <b>Train No & Name</b><input type="text" id="input3"><br>
+                <b>Class</b><input type="Text" id="input3"><br>
+                <b>Station from</b><input type="text" id="input3"><br>
+                <b>Name of the Applicant</b><input type="text" id="input3"><br>
+             </div>  
+             <div id="fourth">
+                <b>Date</b><input type="date" id="input4"><br>
+                <b>To</b><input type="Text" id="input4"><br>
+                <b>Full Address</b><input type="Text" id="input4"><br>
+                <b><input type="text" id="input4"></b>
+             </div> 
+         </div>
+         <p>
+            <h2>Signature of the Applicant/Representative</h2>
+          </p>
+          <div id="surity" text="center">
+            <div id="fifth">
+                <b>Telephone No,if any<input type="text" id="input5" placeholder="91+">
+                date<input type="Text" id="input5">
+                time<input type="text" id="input5"></b>
+          </div>
+          </div>
+          <br>
+          <p>
+            <h2><u>For Office Use Only</u></h2>
+          </p>
+          <div id="Office" text="center">
+            <div id="sixth">
+                <p>S.no of Requistion<input type="text" id="input6">
+                PNR no<input type="Text" id="input6">
+                Birth/Seat No<input type="text" id="input6">
+                Amount collected<input type="text" id="input6">
+                <p><input type="text" id="input6"></p>
+                <b>Signature of Reservation Clerk</b>
+          </div>
+          </div><br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr style="border:1px solidblack;">
+           <ol>
+            Note:
+            <li>Maximum permissible passenger is 6 per requisition</li>
+            <li>One person can give one requsition form at a time</li>
+            <li>please check your ticket and balance amount before leaving teh window</li>
+            <li>Forms not properly filled or in illegeble forms shall not be entertained</li>
+            <li>Choice is subject to availability</li>
+           </ol>
+           <div id="submit">
+            <button type="submit" align="center" onclick="thankyou()">Submit</button>
+           </div>
+           <script>
+            function thankyou()
+            {
+              document.write("Thank you for your Responce");
+            }
+           </script>
+         
+    </body>
+</head>
+</html>
